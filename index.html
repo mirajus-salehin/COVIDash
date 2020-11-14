@@ -9,11 +9,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
 </head>
 
 <body>
-<!--NAV BAR START-->
+  <!--NAV BAR START-->
   <nav class="navbar navbar-inverse navbar-expand-md bg-dark navbar-dark sticky-top">
     <a class="navbar-brand text-primary font-weight-bold" href="#">COVIDash</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -25,7 +27,7 @@
           <a class="nav-link" href="#">Live status</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">World map</a>
+          <a class="nav-link" href="pages/table.html">World map</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Health tips</a>
@@ -41,7 +43,7 @@
 
   <br>
   <br>
-<!--STAT CONTAINER START-->
+  <!--STAT CONTAINER START-->
   <div class="container">
     <div class="row">
       <div class="col-md-4 text-center p-5">
@@ -58,28 +60,31 @@
       </div>
     </div>
   </div>
-<!--STAT CONTAINER END-->
-<br>
-
-<div class="container">
-<div class="col">
-  <div class="row-md-4">
-    <div class="card">
-      <div class="card-header">Header</div>
-      <div class="card-body">Header</div>
-      <div class="card-footer">Header</div>
-    </div>
-  </div>
+  <!--STAT CONTAINER END-->
   <br>
-  <div class="row-md-4">
-    <div class="card">
-      <div class="card-header">Header</div>
-      <div class="card-body">Header</div>
-      <div class="card-footer">Header</div>
+
+  <div class="container">
+    <div class="col">
+      <div class="row-md-4">
+        <div class="card">
+          <div class="card-header">Header</div>
+          <div class="card-body">Header</div>
+          <div class="card-footer">Header</div>
+        </div>
+      </div>
+      <br>
+      <div class="row-md-4">
+        <div class="card">
+          <div class="card-header">Header</div>
+          <div class="card-body">Header</div>
+          <div class="card-footer">Header</div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
+
+  <!--DATA TABLE-->
+
 </body>
 
 </html>
