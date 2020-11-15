@@ -12,6 +12,7 @@
   <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+  <script src="./scripts/utils/multi-animated-counter.js"></script>
 </head>
 
 <body>
@@ -31,12 +32,13 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="pages/advance_data.html">Advance Data</a>
-      </li>
+        </li>
       </ul>
       <ul class="nav navbar-nav ml-auto">
-        <button class="btn btn-outline-primary">
+        <button class="btn btn-outline-primary" onclick="window.open('https://github.com/mirajus-salehin/COVIDash','_blank')">
           <i class="fab fa-github"></i>
-          Source code</button>
+          Source code
+        </button>
       </ul>
     </div>
   </nav>
@@ -47,20 +49,22 @@
     <hr class="my-4">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 text-center p-5">
+        <div class="col-md-4 text-center p-5" id="counters_1">
           <h3 class="text-danger font-weight-bold">Total Confirmed</h3>
-          <h1 class="text-center">57998032</h1>
+          <h1 class="text-center counter" data-Targetnum="0" data-Easing="linear" id="tcon"></h1>
         </div>
-        <div class="col-md-4 text-center p-5">
+        <div class="col-md-4 text-center p-5" id="counters_2">
           <h3 class="text-muted font-weight-bold">Total Death</h3>
-          <h1>57998032</h1>
+          <h1 class="text-center counter" data-Targetnum="0" data-Easing="linear" id="tdeath">0</h1>
         </div>
-        <div class="col-md-4 text-center p-5">
+        <div class="col-md-4 text-center p-5" id="counters_3">
           <h3 class="text-success font-weight-bold">Total Recovered</h3>
-          <h1>57998032</h1>
+          <h1 class="text-center counter" data-Targetnum="0" data-Easing="linear" id="trec">0</h1>
         </div>
       </div>
     </div>
+    <script src="./scripts/utils/counter-up.js"></script>
+
   </div>
   <!--STAT CONTAINER END-->
   <br>

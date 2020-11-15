@@ -2,3 +2,5 @@ styles/dataTables.css
 styles/style.css
 pages/table.html
 scripts/utils/waypoint.js
+scripts/utils/jquery.rcounter.js
+scripts/utils/multi-animated-counter.js
