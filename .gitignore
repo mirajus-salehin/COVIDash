@@ -1,3 +1,4 @@
 styles/dataTables.css
 styles/style.css
 pages/table.html
+scripts/utils/waypoint.js
