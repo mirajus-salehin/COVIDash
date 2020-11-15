@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>World map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+
+</head>
+
+<body>
+    <!--NAV BAR START-->
+    <nav class="navbar navbar-inverse navbar-expand-md bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand text-primary font-weight-bold" href="#">COVIDash</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Live status</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/table.html">World map</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Advance Data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Health tips</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <button class="btn btn-outline-primary">
+                    <i class="fab fa-github"></i>
+                    Source code</button>
+            </ul>
+        </div>
+    </nav>
+    <!--NAV BAR END-->
+    <!--CASES AND DEATHS START-->
+
+    <div class="jumbotron">
+        <h1 class="text-center display-4">Cases and deaths</h1>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <iframe src="https://ourworldindata.org/grapher/total-deaths-and-cases-covid-19?time=2020-01-22..latest"
+                    loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+            </div>
+            <div class="col-md-4">
+                <iframe src="https://ourworldindata.org/grapher/daily-covid-cases-deaths?time=2020-01-01..latest"
+                    loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+            </div>
+            <div class="col-md-4">
+                <iframe
+                    src="https://ourworldindata.org/grapher/daily-tests-and-daily-new-confirmed-covid-cases?tab=chart&stackMode=absolute&region=World"
+                    loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+            </div>
+        </div>
+    </div>
+    <!--CASES AND DEATHS END-->
+    <br>
+    <br>
+    <!--DAILY DEATHS START-->
+    <div class="jumbotron">
+        <h1 class="text-center display-4">Daily COVID-19 deaths</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <iframe
+                    src="https://ourworldindata.org/coronavirus-data-explorer?tab=map&zoomToSelection=true&country=~OWID_WRL&region=World&deathsMetric=true&interval=daily&hideControls=true&smoothing=0&pickerMetric=location&pickerSort=asc"
+                    loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+            </div>
+            <div class="col-md-4">
+                <iframe src="https://ourworldindata.org/grapher/daily-covid-deaths-7-day?time=latest" loading="lazy"
+                    style="width: 100%; height: 600px; border: 0px none;"></iframe>
+            </div>
+            <div class="col-md-4">
+                <iframe
+                    src="https://ourworldindata.org/coronavirus-data-explorer?tab=map&zoomToSelection=true&country=GBR~USA~ESP~ITA~BRA~IND~KOR&region=World&deathsMetric=true&interval=daily&hideControls=true&perCapita=true&smoothing=0&pickerMetric=location&pickerSort=asc"
+                    loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container-fluid bg-dark stick-bottom">
+            <div class="container text-center p-2">
+              <p class="text-white">
+                Data collected from <a href="https://ourworldindata.org/coronavirus-data">ourworldindata</a>
+              </p>
+            </div>
+          </div>
+</body>
+
+</html>
