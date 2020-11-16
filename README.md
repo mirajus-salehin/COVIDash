@@ -9,3 +9,4 @@ COVIDash (covid + dashboard) is an online interactive data visualization project
 - https://ourworldindata.org/coronavirus-data
 
 > Data update interval depends on the APIs.
+##### If you want to contribute to this repo please read [this](https://github.com/mirajus-salehin/COVIDash/blob/master/CONTRIBUTING.md)
