@@ -5,8 +5,6 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
-
-
 Live and interactive online COVID-19 visualization.
 
 COVIDash (covid + dashboard) is an online interactive data visualization project.
@@ -27,6 +25,10 @@ COVIDash (covid + dashboard) is an online interactive data visualization project
 [![git](https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white)](git)
 [![vercel](https://img.shields.io/badge/vercel%20-%23000000.svg?&style=for-the-badge&logo=vercel&logoColor=white)](vercel)
 
+# Repo status
+![GitHub last commit](https://img.shields.io/github/last-commit/mirajus-salehin/COVIDash)
+![GitHub repo size](https://img.shields.io/github/repo-size/mirajus-salehin/COVIDash)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mirajus-salehin/COVIDash)
 
 ## Read my research article about COVID-19 
 This repo was part of the resaerch article below 
