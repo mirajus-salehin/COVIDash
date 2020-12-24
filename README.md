@@ -32,6 +32,8 @@ COVIDash (covid + dashboard) is an online interactive data visualization project
 ![GitHub issues](https://img.shields.io/github/issues/mirajus-salehin/COVIDash)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/mirajus-salehin/COVIDash)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mirajus-salehin/COVIDash?style=social)
+![Lines of code](https://img.shields.io/tokei/lines/github/mirajus-salehin/COVIDash)
+
 
 ## Read my research article about COVID-19 
 This repo was part of the resaerch article below 
